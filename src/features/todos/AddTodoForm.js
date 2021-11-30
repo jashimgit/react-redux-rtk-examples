@@ -9,7 +9,7 @@ export default function AddTodoForm() {
 
     const onSubmit = (e) => {
         e.preventDefault();
-        // console.log(title);
+        
         if(title) {
             dispatch(addTodoAsync({
                 title: title

@@ -3,9 +3,9 @@ import React, { useEffect } from "react";
 import movieApi from "../API/movieApi";
 // import demoImage from "../img/demo.jpg";
 import { useDispatch } from "react-redux";
-import { addMovies } from "../features/movieSlice";
+import { addMovies,getAllMovies } from "../features/movies/movieSlice";
 import MovieCard from "./MovieCard";
-import { getAllMovies } from "../features/movieSlice";
+
 
 export default function MovieList() {
     

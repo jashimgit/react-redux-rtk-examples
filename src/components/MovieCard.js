@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { getAllMovies } from "../features/movieSlice";
+import { getAllMovies } from "../features/movies/movieSlice";
 
 export default function MovieCard() {
     const movies = useSelector(getAllMovies);
